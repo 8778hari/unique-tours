@@ -1,13 +1,13 @@
 {
   "files": {
-    "main.css": "/8778hari/unique-tours/static/css/main.fbff0dd8.css",
-    "main.js": "/8778hari/unique-tours/static/js/main.b9b93ba6.js",
+    "main.css": "/8778hari/unique-tours/static/css/main.f93e7e67.css",
+    "main.js": "/8778hari/unique-tours/static/js/main.f3b19a30.js",
     "index.html": "/8778hari/unique-tours/index.html",
-    "main.fbff0dd8.css.map": "/8778hari/unique-tours/static/css/main.fbff0dd8.css.map",
-    "main.b9b93ba6.js.map": "/8778hari/unique-tours/static/js/main.b9b93ba6.js.map"
+    "main.f93e7e67.css.map": "/8778hari/unique-tours/static/css/main.f93e7e67.css.map",
+    "main.f3b19a30.js.map": "/8778hari/unique-tours/static/js/main.f3b19a30.js.map"
   },
   "entrypoints": [
-    "static/css/main.fbff0dd8.css",
-    "static/js/main.b9b93ba6.js"
+    "static/css/main.f93e7e67.css",
+    "static/js/main.f3b19a30.js"
   ]
 }

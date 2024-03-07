@@ -20,7 +20,6 @@ function App() {
             <Route path="/packages" element={<Package />} />
             <Route path="/services" element={<Service />} />
             <Route path="/gallery" element={<Gallery />} />
-            <Router basename={'/unique-tours/'}></Router>
           </Routes>
         </Router>
       </div>
