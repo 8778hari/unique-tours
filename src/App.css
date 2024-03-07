@@ -1,0 +1,21 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+.App {
+  margin: 0;
+  padding: 0;
+}
+
+.main_container {
+  min-height: 100vh;
+  /* background-image: linear-gradient(to bottom, transparent, #343333),
+    url("/public/images/bklogo.jpg"); */
+  /* background-color: #0d1117; */
+  background-color: #111927;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  backdrop-filter: blur(5px);
+}
