@@ -108,7 +108,7 @@ h3 {
 .logo_name {
   animation: color-change 5s infinite;
   transition: all ease-out 0.3s;
-  font-size: 38px;
+  /* font-size: 38px; */
 }
 
 @keyframes color-change {
@@ -213,24 +213,25 @@ h3 {
     justify-content: center;
     align-items: center;
     justify-content: space-between;
-    padding: 30px;
+    padding: 15px;
     flex-direction: column;
     /* padding-left: 200px;
     padding-top: 100px; */
     /* gap: 50px; */
   }
   .home_image {
-    height: 100%;
+    /* height: 100%;
     width: 100%;
     display: flex;
     justify-content: center;
     align-items: center;
-    object-fit: contain;
+    object-fit: contain; */
+    display: none;
   }
   .home_image img {
     object-fit: fill;
-    width: 400px;
-    height: 300px;
+    width: 100%;
+    height: 100%;
     padding: 0px;
     border-radius: 10px;
     border: 0;
@@ -288,21 +289,23 @@ h3 {
   }
 
   .home_discover_container {
-    flex-direction: column;
-    justify-content: center;
+    flex-direction: row;
+    /* justify-content: center; */
     gap: 20px;
+    overflow-x: scroll;
+    padding: 20px 0px;
   }
 
   .discover_item {
     border-radius: 10px;
     width: 100%;
     flex-direction: column;
-    justify-content: center;
+    justify-content: normal;
     align-items: center;
-  }
+  }  
 
   .discover_item_img {
-    width: 100%;
+    width: 250px;
     height: 100%;
     object-fit: fill;
     padding-bottom: 20px;
@@ -311,15 +314,24 @@ h3 {
   .discover_details h1 {
     font-size: 28px;
   }
+  .discover_details { 
+    padding: 10px;
+  }
   .home_dis_title {
     font-size: 24px;
   }
   .home_gallery {
     grid-template-columns: repeat(2, 1fr);
   }
+  .logo_name {
+    font-size: 38px;
+  }
+  .home_gallery_container {
+    padding: 20px;
+  }
 }
 
-@media screen and (max-width: 768px) {
+@media screen and (max-width: 768px) and (min-width: 480px) {
   .home_body {
     display: flex;
     justify-content: center;

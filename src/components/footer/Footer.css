@@ -178,7 +178,7 @@
   }
 }
 
-@media screen and (max-width: 768px) {
+@media screen and (max-width: 768px)and (min-width: 480px) {
   .footer_container {
     border: 1px solid #534b6aaf;
     border-left: 0;
